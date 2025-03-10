@@ -1,2 +1,2 @@
-# block66a.js
-Block66a の JavaScript solver.
+# block solver.js
+Block の JavaScript solver.
