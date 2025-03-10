@@ -1,0 +1,51 @@
+body {
+  text-align: center;
+}
+main {
+  display: inline-block;
+  position: relative;
+}
+
+#board {
+  margin: 0 auto;
+  background: #808080;
+}
+#right_conteiner {
+  float: right;
+}
+#condition_container {
+    width: 500px;
+}
+#debug_container {
+}
+.debug {
+  text-align: left;
+  background: #f0f0f0;
+  border: solid 1px black;
+  padding: 16px;
+}
+td.cell {
+  background: #d0d0d0;
+  font-size: 32px;
+  border-width: 2px;
+  border-radius: 20%;
+}
+.cell6 > tr > td {
+  width: 63px;
+  height: 63px;
+}
+h2 {
+  text-align: center;
+  margin: 5px 0;
+}
+
+input[type="number"]::-webkit-outer-spin-button, 
+input[type="number"]::-webkit-inner-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input[type="text"]:disabled {
+  font: #eee;
+  background: #ccc;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf8">
+    <title>block solver</title>
+    <link rel="stylesheet" href="block66a.css">
+</head>
+<body>
+    <div id="right_conteiner">
+        <div id="debug_container">
+            conditions
+            <pre class="debug" id="condition_debug"></pre>
+            choosing_points
+            <pre class="debug" id="choosing_debug"></pre>
+            backtracks=<span id="backtracks_debug"></span>
+            </div>
+            <div id="condition_container">
+            条件
+            <pre class="debug" id="condition_desc"></pre>
+        </div>
+    </div>
+    <h2>計算ブロックソルバー</h2>
+    <table id="board"></table>
+    <hr>
+    <input type="button" value="計算を開始" id="startBtn">
+    <input type="button" value="結果をクリア" id="resetBtn">
+    <input type="checkbox" id="debugon" checked="checked">
+    <label for="debugon">デバッグ表示</labe>
+    <hr>
+    条件を編集する
+    <input type="button" value="条件をクリア" id="clearBtn">
+    <input type="number" id="input_number" min="1" max="360">
+    <input type="button" value="条件を追加" id="appendBtn">
+    <hr>
+    <br>
+    <script src="block66a.js" charset="utf8"></script>
+</body>
+</html>
